@@ -14,6 +14,7 @@
 - ESLint
 - Editor config
 - VSCode settings
+- dotenv
 
 ### Libraries
 
