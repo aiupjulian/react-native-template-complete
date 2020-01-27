@@ -3,10 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // these files don't get renamed by rncli
-const UNDERSCORED_DOTFILES = ["editorconfig", "huskyrc"];
-
-console.log(process.cwd());
-
+const UNDERSCORED_DOTFILES = ["editorconfig", "huskyrc", "env", "env.example"];
 
 UNDERSCORED_DOTFILES.forEach(dotfile => {
   renameFile(
