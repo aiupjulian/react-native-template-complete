@@ -4,6 +4,7 @@ module.exports = {
     'module:react-native-dotenv',
   ],
   plugins: [
+    'babel-plugin-styled-components',
     [
       'module-resolver',
       {
