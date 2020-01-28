@@ -15,6 +15,7 @@
 - Editor config
 - VSCode settings
 - dotenv
+- Babel aliases for src folders
 
 ### Libraries
 
