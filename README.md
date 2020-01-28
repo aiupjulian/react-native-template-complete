@@ -20,7 +20,6 @@
 ### Libraries
 
 - React Navigation
-- Redux
 - styled-components
 
 > Please install recommended VSCode extensions!
@@ -28,5 +27,5 @@
 ## :arrow_forward: Usage
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript
+npx react-native init MyApp --template file://PATH_TO_TEMPLATE
 ```
