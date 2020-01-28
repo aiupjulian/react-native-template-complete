@@ -1,14 +1,15 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import LoginNavigator from './LoginNavigator';
 import HomeNavigator from './HomeNavigator';
+import {HOME, LOGIN} from 'constants/navigators';
 
 const AppNavigator = createSwitchNavigator(
   {
-    LoginNavigator: LoginNavigator,
-    HomeNavigator: HomeNavigator,
+    [LOGIN]: LoginNavigator,
+    [HOME]: HomeNavigator,
   },
   {
-    initialRouteName: 'LoginNavigator',
+    initialRouteName: LOGIN,
   },
 );
 
