@@ -5,7 +5,8 @@
   "license": "ISC",
   "files": [
     "template",
-    "template.config.js"
+    "template.config.js",
+    "postInitScript.js"
   ],
   "repository": {
     "type": "git",

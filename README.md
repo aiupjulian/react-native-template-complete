@@ -27,5 +27,5 @@
 ## :arrow_forward: Usage
 
 ```sh
-npx react-native init MyApp --template file://PATH_TO_TEMPLATE
+npx react-native init MyApp --template complete
 ```
