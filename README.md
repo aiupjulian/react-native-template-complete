@@ -27,5 +27,5 @@
 ## :arrow_forward: Usage
 
 ```sh
-npx react-native init MyApp --template complete
+npx react-native init MyApp --template react-native-template-complete
 ```
