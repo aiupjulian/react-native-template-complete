@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {FunctionComponent} from 'react';
 import {Text, Button} from 'react-native';
-import {NavigationSwitchScreenComponent} from 'react-navigation';
+import { useNavigation } from '@react-navigation/native';
 
-const First: NavigationSwitchScreenComponent = ({navigation}) => (
-  <>
-    <Text>First</Text>
-    <Button onPress={() => navigation.navigate('Second')} title="Go" />
-  </>
-);
+const First: FunctionComponent = () => {
+  const navigation = useNavigation();
+
+  return (
+    <>
+      <Text>First</Text>
+      <Button onPress={() => navigation.navigate('Second')} title="Go" />
+    </>
+  );
+};
 
 export default First;
